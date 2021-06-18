@@ -1,0 +1,75 @@
+/* .left,
+.right{
+   
+    display: inline;
+} */
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.about,
+.store,
+.gmail,
+.images{
+    text-decoration: none;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+    opacity: 0.7;
+}
+.about:hover,
+.store:hover,
+.gmail:hover,
+.images:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+/* .images:hover{
+    text-decoration: underline;
+} */
+.gruppe:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+header{
+    margin: 10px 15px 20px 15px;
+    
+    
+}
+.gruppe{
+   
+    opacity: 0.5;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 15px;
+}
+
+.sign{
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.bbb{
+    margin: auto;
+    width: 80%;
+    
+}
+.sign:hover{
+    height: 34px;
+}
+/* .searchbar{
+    display: static;
+} */
+/* .bbb{
+    max-height: 1000px;
+    max-width: 1000px;
+} */
